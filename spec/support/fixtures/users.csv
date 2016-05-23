@@ -1,0 +1,5 @@
+first name,last name,email,job title,date of birth,work start date,managers email,staff ID,preferred name,department,state/region,country
+John,Smith,js@example.com,hydroporcelain technician,10-10-1910,10-10-1920,programadmin@example.com
+Joan,Smythe,js2@example.com,hydroporcelain engineer,10-10-1990,10-10-2010,
+Jan,Smit,js3@example.com,hydroporcelain estimator,10-10-1980,10-10-1981,js4@example.com
+Jen,Smithers,js4@example.com,hydroporcelain manager,10-10-1970,10-10-1995,js2@example.com

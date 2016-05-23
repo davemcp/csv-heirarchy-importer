@@ -1,0 +1,3089 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>Code coverage for Csv-heirarchy-importer</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src='./assets/0.10.0/application.js' type='text/javascript'></script>    
+    <link href='./assets/0.10.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_yellow.png" />
+    <link rel="icon" type="image/png" href="./assets/0.10.0/favicon.png" />
+  </head>
+  
+  <body>
+    <div id="loading">
+      <img src="./assets/0.10.0/loading.gif" alt="loading"/>
+    </div>
+    <div id="wrapper" style="display:none;">
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-05-23T20:31:21+10:00">2016-05-23T20:31:21+10:00</abbr></div>
+      <ul class="group_tabs"></ul>
+
+      <div id="content">
+        <div class="file_list_container" id="AllFiles">
+  <h2>
+    <span class="group_name">All Files</span>
+    (<span class="covered_percent"><span class="yellow">81.22%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="green">
+         14.59
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="AllFiles"></a>
+  <div>
+    <b>8</b> files in total.
+    <b>229</b> relevant lines. 
+    <span class="green"><b>186</b> lines covered</span> and
+    <span class="red"><b>43</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#616f72cd3c9e2198c2f6eef73087978df0ac590f" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+        <td class="red strong">0.0 %</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>5</td>
+        <td>0.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#b759454dc7fe878e1f67f88f955f2acc7b6e3956" class="src_link" title="app/forms/user_import_form.rb">app/forms/user_import_form.rb</a></td>
+        <td class="red strong">80.0 %</td>
+        <td>89</td>
+        <td>50</td>
+        <td>40</td>
+        <td>10</td>
+        <td>10.2</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#44f040f8516cda5bc6d44d3f592dc8f30ed2f780" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#487e8ce1905e6dc9f3ed24c5a746f8232140a307" class="src_link" title="app/lib/user_import/user.rb">app/lib/user_import/user.rb</a></td>
+        <td class="red strong">75.86 %</td>
+        <td>65</td>
+        <td>29</td>
+        <td>22</td>
+        <td>7</td>
+        <td>11.4</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#42e11f46d3ab4a32d86378ebe442e545c704f8eb" class="src_link" title="app/models/user.rb">app/models/user.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#3f384d124d3aa0959fd513c04675c886e2e9db7e" class="src_link" title="app/models/user_import_job.rb">app/models/user_import_job.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>7</td>
+        <td>4</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#e7666ab3030595dd2ff30ddd15fe8286558b5661" class="src_link" title="app/services/user_hierarchy_builder.rb">app/services/user_hierarchy_builder.rb</a></td>
+        <td class="yellow strong">82.42 %</td>
+        <td>157</td>
+        <td>91</td>
+        <td>75</td>
+        <td>16</td>
+        <td>22.4</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#8f0fb3f8acb99beb608170c915969d694530ebd8" class="src_link" title="app/services/user_importer.rb">app/services/user_importer.rb</a></td>
+        <td class="yellow strong">89.36 %</td>
+        <td>81</td>
+        <td>47</td>
+        <td>42</td>
+        <td>5</td>
+        <td>9.7</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+        
+          <div class="file_list_container" id="Controllers">
+  <h2>
+    <span class="group_name">Controllers</span>
+    (<span class="covered_percent"><span class="red">0.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="red">
+         0.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Controllers"></a>
+  <div>
+    <b>1</b> files in total.
+    <b>5</b> relevant lines. 
+    <span class="green"><b>0</b> lines covered</span> and
+    <span class="red"><b>5</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#616f72cd3c9e2198c2f6eef73087978df0ac590f" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+        <td class="red strong">0.0 %</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>5</td>
+        <td>0.0</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Models">
+  <h2>
+    <span class="group_name">Models</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="yellow">
+         1.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Models"></a>
+  <div>
+    <b>2</b> files in total.
+    <b>6</b> relevant lines. 
+    <span class="green"><b>6</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#42e11f46d3ab4a32d86378ebe442e545c704f8eb" class="src_link" title="app/models/user.rb">app/models/user.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#3f384d124d3aa0959fd513c04675c886e2e9db7e" class="src_link" title="app/models/user_import_job.rb">app/models/user_import_job.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>7</td>
+        <td>4</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Mailers">
+  <h2>
+    <span class="group_name">Mailers</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="red">
+         0.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Mailers"></a>
+  <div>
+    <b>0</b> files in total.
+    <b>0.0</b> relevant lines. 
+    <span class="green"><b>0.0</b> lines covered</span> and
+    <span class="red"><b>0.0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Helpers">
+  <h2>
+    <span class="group_name">Helpers</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="yellow">
+         1.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Helpers"></a>
+  <div>
+    <b>1</b> files in total.
+    <b>1</b> relevant lines. 
+    <span class="green"><b>1</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#44f040f8516cda5bc6d44d3f592dc8f30ed2f780" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Jobs">
+  <h2>
+    <span class="group_name">Jobs</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="red">
+         0.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Jobs"></a>
+  <div>
+    <b>0</b> files in total.
+    <b>0.0</b> relevant lines. 
+    <span class="green"><b>0.0</b> lines covered</span> and
+    <span class="red"><b>0.0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Libraries">
+  <h2>
+    <span class="group_name">Libraries</span>
+    (<span class="covered_percent"><span class="red">75.86%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="green">
+         11.4
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Libraries"></a>
+  <div>
+    <b>1</b> files in total.
+    <b>29</b> relevant lines. 
+    <span class="green"><b>22</b> lines covered</span> and
+    <span class="red"><b>7</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#487e8ce1905e6dc9f3ed24c5a746f8232140a307" class="src_link" title="app/lib/user_import/user.rb">app/lib/user_import/user.rb</a></td>
+        <td class="red strong">75.86 %</td>
+        <td>65</td>
+        <td>29</td>
+        <td>22</td>
+        <td>7</td>
+        <td>11.4</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Ungrouped">
+  <h2>
+    <span class="group_name">Ungrouped</span>
+    (<span class="covered_percent"><span class="yellow">83.51%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="green">
+         15.98
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Ungrouped"></a>
+  <div>
+    <b>3</b> files in total.
+    <b>188</b> relevant lines. 
+    <span class="green"><b>157</b> lines covered</span> and
+    <span class="red"><b>31</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#b759454dc7fe878e1f67f88f955f2acc7b6e3956" class="src_link" title="app/forms/user_import_form.rb">app/forms/user_import_form.rb</a></td>
+        <td class="red strong">80.0 %</td>
+        <td>89</td>
+        <td>50</td>
+        <td>40</td>
+        <td>10</td>
+        <td>10.2</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#e7666ab3030595dd2ff30ddd15fe8286558b5661" class="src_link" title="app/services/user_hierarchy_builder.rb">app/services/user_hierarchy_builder.rb</a></td>
+        <td class="yellow strong">82.42 %</td>
+        <td>157</td>
+        <td>91</td>
+        <td>75</td>
+        <td>16</td>
+        <td>22.4</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#8f0fb3f8acb99beb608170c915969d694530ebd8" class="src_link" title="app/services/user_importer.rb">app/services/user_importer.rb</a></td>
+        <td class="yellow strong">89.36 %</td>
+        <td>81</td>
+        <td>47</td>
+        <td>42</td>
+        <td>5</td>
+        <td>9.7</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+      </div>
+    
+      <div id="footer">
+        Generated by <a href="http://github.com/colszowka/simplecov">simplecov</a> v0.11.2 
+        and simplecov-html v0.10.0<br/>
+        using RSpec
+      </div>
+    
+      <div class="source_files">
+      
+        <div class="source_table" id="616f72cd3c9e2198c2f6eef73087978df0ac590f">
+  <div class="header">
+    <h3>app/controllers/application_controller.rb</h3>
+    <h4><span class="red">0.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>5</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="missed" data-hits="0" data-linenumber="1">
+          
+          
+          <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="2">
+          
+          
+          <code class="ruby">  # Prevent CSRF attacks by raising an exception.</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="3">
+          
+          
+          <code class="ruby">  # For APIs, you may want to use :null_session instead.</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="4">
+          
+          
+          <code class="ruby">  protect_from_forgery with: :exception</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="5">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="b759454dc7fe878e1f67f88f955f2acc7b6e3956">
+  <div class="header">
+    <h3>app/forms/user_import_form.rb</h3>
+    <h4><span class="red">80.0 %</span> covered</h4>
+    <div>
+      <b>50</b> relevant lines. 
+      <span class="green"><b>40</b> lines covered</span> and
+      <span class="red"><b>10</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class UserImportForm</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  include SimpleFormObject</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attribute :spreadsheet, :file</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attribute :users</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attribute :current_user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_accessor :csv_validation</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_accessor :created_users</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_reader :imported_users</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def rows</code>
+        </li>
+      
+        <li class="covered" data-hits="17" data-linenumber="13">
+          <span class="hits">17</span>
+          
+          <code class="ruby">    return [] unless spreadsheet</code>
+        </li>
+      
+        <li class="covered" data-hits="17" data-linenumber="14">
+          <span class="hits">17</span>
+          
+          <code class="ruby">    if headers_present?</code>
+        </li>
+      
+        <li class="covered" data-hits="17" data-linenumber="15">
+          <span class="hits">17</span>
+          
+          <code class="ruby">      open_spreadsheet.drop(1)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
+          
+          <code class="ruby">      open_spreadsheet</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def headers_present?</code>
+        </li>
+      
+        <li class="covered" data-hits="255" data-linenumber="22">
+          <span class="hits">255</span>
+          
+          <code class="ruby">    open_spreadsheet.row(1).map { |col| col.to_s.downcase }.include?(&#39;email&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  # load the users from the spreadsheet</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def users</code>
+        </li>
+      
+        <li class="covered" data-hits="56" data-linenumber="27">
+          <span class="hits">56</span>
+          
+          <code class="ruby">    @users ||= rows.map { |r| UserImport::User.new(r) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby">  # load the users from the nested params</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def users=(params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="32">
+          
+          
+          <code class="ruby">    @users = params.values.map { |r| UserImport::User.new(r.values) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def emails</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="36">
+          
+          
+          <code class="ruby">    rows.any? ? rows.transpose[2] : users.map(&amp;:email)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="39">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def user_importer</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="40">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    @user_importer ||= UserImporter.new(rows: rows, import_job: import_job)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="43">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def job_id</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="44">
+          
+          
+          <code class="ruby">    import_job.id</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="47">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def import_job</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="48">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @import_job ||= UserImportJob.create!(user: current_user, data: csv_rows)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="51">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def csv_rows</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="52">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    CSV.generate do |csv|</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="53">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      rows.each do |row|</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="54">
+          <span class="hits">4</span>
+          
+          <code class="ruby">        csv &lt;&lt; row</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="57">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="58">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="59">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def reports_to_user_emails</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="60">
+          
+          
+          <code class="ruby">    @reports_to_user_emails ||= users.map(&amp;:reports_to_user_email)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="63">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def reports_to_user_options_for(u)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="64">
+          
+          
+          <code class="ruby">    existing_reports + users.reject{ |us| us.email == u.email }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="67">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def existing_reports</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="68">
+          
+          
+          <code class="ruby">    @existing_reports ||= User.order(&#39;lower(first_name) ASC, lower(last_name) ASC&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="69">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="70">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="71">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  private</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="72">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="73">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def encoded_spreadsheet</code>
+        </li>
+      
+        <li class="covered" data-hits="15" data-linenumber="74">
+          <span class="hits">15</span>
+          
+          <code class="ruby">    tmpfile = Tempfile.new(spreadsheet.original_filename, &quot;#{ Rails.root }/tmp&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="15" data-linenumber="75">
+          <span class="hits">15</span>
+          
+          <code class="ruby">    tmpfile.write(File.read(spreadsheet.path).encode(&#39;utf-8&#39;, &#39;binary&#39;, invalid: :replace, undef: :replace, replace: &#39;&#39;))</code>
+        </li>
+      
+        <li class="covered" data-hits="15" data-linenumber="76">
+          <span class="hits">15</span>
+          
+          <code class="ruby">    tmpfile.rewind</code>
+        </li>
+      
+        <li class="covered" data-hits="15" data-linenumber="77">
+          <span class="hits">15</span>
+          
+          <code class="ruby">    tmpfile</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="78">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="79">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="80">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def open_spreadsheet</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="81">
+          
+          
+          <code class="ruby">    @ss ||= case File.extname(spreadsheet.original_filename).downcase</code>
+        </li>
+      
+        <li class="covered" data-hits="15" data-linenumber="82">
+          <span class="hits">15</span>
+          
+          <code class="ruby">            when &quot;.csv&quot; then Roo::CSV.new(encoded_spreadsheet.path, csv_options: { encoding: Encoding::UTF_8 })</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="83">
+          
+          
+          <code class="ruby">            when &quot;.xls&quot; then Roo::Excel.new(spreadsheet.path, file_warning: :ignore)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="84">
+          <span class="hits">1</span>
+          
+          <code class="ruby">            when &quot;.xlsx&quot; then Roo::Excelx.new(spreadsheet.path, file_warning: :ignore)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="85">
+          
+          
+          <code class="ruby">            when &#39;.ods&#39; then Roo::OpenOffice.new(spreadsheet.path, file_warning: :ignore)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="86">
+          
+          
+          <code class="ruby">            else fail &quot;Unknown file type: #{ spreadsheet.original_filename }&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="38" data-linenumber="87">
+          <span class="hits">38</span>
+          
+          <code class="ruby">            end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="88">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="89">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="44f040f8516cda5bc6d44d3f592dc8f30ed2f780">
+  <div class="header">
+    <h3>app/helpers/application_helper.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module ApplicationHelper</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="487e8ce1905e6dc9f3ed24c5a746f8232140a307">
+  <div class="header">
+    <h3>app/lib/user_import/user.rb</h3>
+    <h4><span class="red">75.86 %</span> covered</h4>
+    <div>
+      <b>29</b> relevant lines. 
+      <span class="green"><b>22</b> lines covered</span> and
+      <span class="red"><b>7</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module UserImport</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  class User</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attr_accessor :first_name, :last_name, :email_address, :reports_to_user_email</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def initialize(row)</code>
+        </li>
+      
+        <li class="covered" data-hits="75" data-linenumber="6">
+          <span class="hits">75</span>
+          
+          <code class="ruby">      @row = row</code>
+        </li>
+      
+        <li class="covered" data-hits="75" data-linenumber="7">
+          <span class="hits">75</span>
+          
+          <code class="ruby">      @first_name, @last_name, @email_address, @reports_to_user_email = row</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def ready_to_create?(other_emails_in_spreadsheet)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">      # if the user doesn&#39;t report to anyone,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">      # or their manager is already saved,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">      # or their manager&#39;s email does not appear in the email column of the spreadsheet</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">      # then the account can be created</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">      other_emails = other_emails_in_spreadsheet.compact.map { |e| e.downcase }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
+          
+          <code class="ruby">      reports_to_user_email.blank? || ::User.find_by(email_address:reports_to_user_email) || !other_emails.include?(reports_to_user_email)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def email</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
+          
+          <code class="ruby">      @email.try(:downcase)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def reports_to_user_email</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="25">
+          <span class="hits">33</span>
+          
+          <code class="ruby">      @reports_to_user_email.downcase if @reports_to_user_email.present?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="28">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def as_params</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">      {</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby">        first_name: first_name, last_name: last_name, email_address: email_address,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">        parent_id: parent_id</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="32">
+          <span class="hits">33</span>
+          
+          <code class="ruby">      }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def parent_id</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="36">
+          <span class="hits">33</span>
+          
+          <code class="ruby">      ::User.where(email_address: reports_to_user_email).pluck(:id).first</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">      #parent = ::User.find_by(email_address: reports_to_user_email)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby">      #parent.present? ? parent.id : nil</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="41">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def row</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="42">
+          
+          
+          <code class="ruby">      @row</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="43">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="44">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def name_and_email</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="46">
+          
+          
+          <code class="ruby">      &quot;#{first_name} #{last_name} (#{email_address})&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def exists?</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="50">
+          <span class="hits">33</span>
+          
+          <code class="ruby">      existing_user.present?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="53">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def existing_user</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="54">
+          <span class="hits">33</span>
+          
+          <code class="ruby">      ::User.find_by(email_address: email_address)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="57">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def email_invalid?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="58">
+          
+          
+          <code class="ruby">      !self.class.email_valid?(@email_address)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="59">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="61">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def self.email_valid?(email_address)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="62">
+          
+          
+          <code class="ruby">      email.to_s.match(/\A.+@.+\z/)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="42e11f46d3ab4a32d86378ebe442e545c704f8eb">
+  <div class="header">
+    <h3>app/models/user.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class User &lt; ActiveRecord::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  belongs_to :reports_to_user, class_name: &#39;User&#39;, foreign_key: :parent_id</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="3f384d124d3aa0959fd513c04675c886e2e9db7e">
+  <div class="header">
+    <h3>app/models/user_import_job.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class UserImportJob &lt; ActiveRecord::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  belongs_to :user, class_name: &#39;::User&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_presence_of :user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  enum job_state: %w(unstarted finished failed)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="e7666ab3030595dd2ff30ddd15fe8286558b5661">
+  <div class="header">
+    <h3>app/services/user_hierarchy_builder.rb</h3>
+    <h4><span class="yellow">82.42 %</span> covered</h4>
+    <div>
+      <b>91</b> relevant lines. 
+      <span class="green"><b>75</b> lines covered</span> and
+      <span class="red"><b>16</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class UserHierarchyBuilder</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  MissingParentNode = Class.new(RuntimeError)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_reader :root, :existing_email_pairs</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  class RootNode</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attr_reader :children</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def initialize</code>
+        </li>
+      
+        <li class="covered" data-hits="12" data-linenumber="9">
+          <span class="hits">12</span>
+          
+          <code class="ruby">      @children = []</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def add_child(node)</code>
+        </li>
+      
+        <li class="covered" data-hits="62" data-linenumber="13">
+          <span class="hits">62</span>
+          
+          <code class="ruby">      node.parent = self</code>
+        </li>
+      
+        <li class="covered" data-hits="62" data-linenumber="14">
+          <span class="hits">62</span>
+          
+          <code class="ruby">      @children &lt;&lt; node</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def walk(&amp;block)</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="18">
+          <span class="hits">3</span>
+          
+          <code class="ruby">      @children.each do |child|</code>
+        </li>
+      
+        <li class="covered" data-hits="36" data-linenumber="19">
+          <span class="hits">36</span>
+          
+          <code class="ruby">        child.walk(&amp;block)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def walk_with_level(&amp;block)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="24">
+          
+          
+          <code class="ruby">      @children.each do |child|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
+          
+          <code class="ruby">        child.walk_with_level(0, &amp;block)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="29">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def root?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="30">
+          
+          
+          <code class="ruby">      true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="34">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  class Node</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attr_reader :email</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="36">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attr_reader :children</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="37">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attr_reader :row</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="38">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attr_accessor :parent</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="40">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def initialize(email:, children: [], row: nil)</code>
+        </li>
+      
+        <li class="covered" data-hits="139" data-linenumber="41">
+          <span class="hits">139</span>
+          
+          <code class="ruby">      @email = email</code>
+        </li>
+      
+        <li class="covered" data-hits="139" data-linenumber="42">
+          <span class="hits">139</span>
+          
+          <code class="ruby">      @children = []</code>
+        </li>
+      
+        <li class="covered" data-hits="139" data-linenumber="43">
+          <span class="hits">139</span>
+          
+          <code class="ruby">      @row = row</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="44">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="46">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def add_child(node)</code>
+        </li>
+      
+        <li class="covered" data-hits="77" data-linenumber="47">
+          <span class="hits">77</span>
+          
+          <code class="ruby">      node.parent = self</code>
+        </li>
+      
+        <li class="covered" data-hits="77" data-linenumber="48">
+          <span class="hits">77</span>
+          
+          <code class="ruby">      @children &lt;&lt; node</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="51">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def walk(&amp;block)</code>
+        </li>
+      
+        <li class="covered" data-hits="87" data-linenumber="52">
+          <span class="hits">87</span>
+          
+          <code class="ruby">      block.call(self)</code>
+        </li>
+      
+        <li class="covered" data-hits="87" data-linenumber="53">
+          <span class="hits">87</span>
+          
+          <code class="ruby">      @children.each do |child|</code>
+        </li>
+      
+        <li class="covered" data-hits="51" data-linenumber="54">
+          <span class="hits">51</span>
+          
+          <code class="ruby">        child.walk(&amp;block)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="57">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="58">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def walk_with_level(level, &amp;block)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="59">
+          
+          
+          <code class="ruby">      block.call(self, level: level)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="60">
+          
+          
+          <code class="ruby">      @children.each do |child|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="61">
+          
+          
+          <code class="ruby">        child.walk_with_level(level + 1, &amp;block)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="65">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def parents</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="66">
+          
+          
+          <code class="ruby">      parent = @parent</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="67">
+          
+          
+          <code class="ruby">      parents = []</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="68">
+          
+          
+          <code class="ruby">      until parent.root?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="69">
+          
+          
+          <code class="ruby">        parents &lt;&lt; parent</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="70">
+          
+          
+          <code class="ruby">        parent = parent.parent</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="71">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="72">
+          
+          
+          <code class="ruby">      parents</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="73">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="74">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="75">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def self_and_parents</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="76">
+          
+          
+          <code class="ruby">      parents.unshift(self)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="77">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="78">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="79">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def existing?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="80">
+          
+          
+          <code class="ruby">      !row.present?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="81">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="82">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="83">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def root?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="84">
+          
+          
+          <code class="ruby">      false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="85">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="86">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="87">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="88">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def initialize(email_pairs = [])</code>
+        </li>
+      
+        <li class="covered" data-hits="8" data-linenumber="89">
+          <span class="hits">8</span>
+          
+          <code class="ruby">    @existing_email_pairs = email_pairs</code>
+        </li>
+      
+        <li class="covered" data-hits="8" data-linenumber="90">
+          <span class="hits">8</span>
+          
+          <code class="ruby">    @linked_nodes = {}</code>
+        </li>
+      
+        <li class="covered" data-hits="8" data-linenumber="91">
+          <span class="hits">8</span>
+          
+          <code class="ruby">    @root = RootNode.new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="92">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="93">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="94">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def prepare</code>
+        </li>
+      
+        <li class="covered" data-hits="7" data-linenumber="95">
+          <span class="hits">7</span>
+          
+          <code class="ruby">    self.class.build_top_level(@root, @linked_nodes, existing_email_pairs)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="96">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="97">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="98">
+          
+          
+          <code class="ruby">  # This method is called import but it only builds a node and adds it to the parent node</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="99">
+          
+          
+          <code class="ruby">  # and returns the added node.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="100">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def import(manager_email, user_email, row)</code>
+        </li>
+      
+        <li class="covered" data-hits="36" data-linenumber="101">
+          <span class="hits">36</span>
+          
+          <code class="ruby">    parent_node = manager_email.present? ? @linked_nodes[manager_email] : @root</code>
+        </li>
+      
+        <li class="covered" data-hits="36" data-linenumber="102">
+          <span class="hits">36</span>
+          
+          <code class="ruby">    return nil unless parent_node</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="103">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="104">
+          <span class="hits">33</span>
+          
+          <code class="ruby">    node = Node.new(email: user_email, row: row)</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="105">
+          <span class="hits">33</span>
+          
+          <code class="ruby">    @linked_nodes[user_email] = node</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="106">
+          <span class="hits">33</span>
+          
+          <code class="ruby">    parent_node.add_child(node)</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="107">
+          <span class="hits">33</span>
+          
+          <code class="ruby">    node</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="108">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="109">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="110">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def walk(&amp;block)</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="111">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    @root.walk(&amp;block)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="112">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="113">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="114">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def walk_with_level(&amp;block)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="115">
+          
+          
+          <code class="ruby">    @root.walk_with_level(&amp;block)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="116">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="117">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="118">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.build_top_level(root, linked_nodes, email_pairs)</code>
+        </li>
+      
+        <li class="covered" data-hits="11" data-linenumber="119">
+          <span class="hits">11</span>
+          
+          <code class="ruby">    missing_email_pairs = email_pairs.reject do |manager_email, user_email|</code>
+        </li>
+      
+        <li class="covered" data-hits="107" data-linenumber="120">
+          <span class="hits">107</span>
+          
+          <code class="ruby">      if top_level_node?(manager_email)</code>
+        </li>
+      
+        <li class="covered" data-hits="59" data-linenumber="121">
+          <span class="hits">59</span>
+          
+          <code class="ruby">        node = Node.new(email: user_email)</code>
+        </li>
+      
+        <li class="covered" data-hits="59" data-linenumber="122">
+          <span class="hits">59</span>
+          
+          <code class="ruby">        linked_nodes[user_email] = node</code>
+        </li>
+      
+        <li class="covered" data-hits="59" data-linenumber="123">
+          <span class="hits">59</span>
+          
+          <code class="ruby">        root.add_child(node)</code>
+        </li>
+      
+        <li class="covered" data-hits="59" data-linenumber="124">
+          <span class="hits">59</span>
+          
+          <code class="ruby">        true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="125">
+          
+          
+          <code class="ruby">      else</code>
+        </li>
+      
+        <li class="covered" data-hits="48" data-linenumber="126">
+          <span class="hits">48</span>
+          
+          <code class="ruby">        false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="127">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="128">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="129">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="11" data-linenumber="130">
+          <span class="hits">11</span>
+          
+          <code class="ruby">    link_next_level(linked_nodes, missing_email_pairs)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="131">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="132">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="133">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.top_level_node?(managers_email)</code>
+        </li>
+      
+        <li class="covered" data-hits="107" data-linenumber="134">
+          <span class="hits">107</span>
+          
+          <code class="ruby">    !managers_email.present?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="135">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="136">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="137">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.link_next_level(linked_nodes, email_pairs)</code>
+        </li>
+      
+        <li class="covered" data-hits="13" data-linenumber="138">
+          <span class="hits">13</span>
+          
+          <code class="ruby">    missing_email_pairs = email_pairs.reject do |manager_email, user_email|</code>
+        </li>
+      
+        <li class="covered" data-hits="52" data-linenumber="139">
+          <span class="hits">52</span>
+          
+          <code class="ruby">      if manager_node = linked_nodes[manager_email]</code>
+        </li>
+      
+        <li class="covered" data-hits="47" data-linenumber="140">
+          <span class="hits">47</span>
+          
+          <code class="ruby">        node = Node.new(email: user_email)</code>
+        </li>
+      
+        <li class="covered" data-hits="47" data-linenumber="141">
+          <span class="hits">47</span>
+          
+          <code class="ruby">        linked_nodes[user_email] = node</code>
+        </li>
+      
+        <li class="covered" data-hits="47" data-linenumber="142">
+          <span class="hits">47</span>
+          
+          <code class="ruby">        manager_node.add_child(node)</code>
+        </li>
+      
+        <li class="covered" data-hits="47" data-linenumber="143">
+          <span class="hits">47</span>
+          
+          <code class="ruby">        true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="144">
+          
+          
+          <code class="ruby">      else</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="145">
+          <span class="hits">5</span>
+          
+          <code class="ruby">        false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="146">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="147">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="148">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="13" data-linenumber="149">
+          <span class="hits">13</span>
+          
+          <code class="ruby">    return if missing_email_pairs.empty?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="150">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="151">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    if missing_email_pairs == email_pairs</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="152">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      fail MissingParentNode, &quot;Failed to find any nodes in #{ missing_email_pairs.inspect }&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="153">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="154">
+          <span class="hits">2</span>
+          
+          <code class="ruby">      link_next_level(linked_nodes, missing_email_pairs)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="155">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="156">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="157">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="8f0fb3f8acb99beb608170c915969d694530ebd8">
+  <div class="header">
+    <h3>app/services/user_importer.rb</h3>
+    <h4><span class="yellow">89.36 %</span> covered</h4>
+    <div>
+      <b>47</b> relevant lines. 
+      <span class="green"><b>42</b> lines covered</span> and
+      <span class="red"><b>5</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &quot;user_hierarchy_builder&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &quot;active_support/core_ext/object/blank&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class UserImporter</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_accessor :errors</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_reader :imported_users, :logger, :csv, :import_job</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  MANAGER_EMAIL_INDEX = 3</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  USER_EMAIL_INDEX = 2</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def initialize(logger: Rails.logger, rows:, import_job:)</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="12">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @errors = []</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="13">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @builder = UserHierarchyBuilder.new(existing_email_pairs).tap(&amp;:prepare)</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="14">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @imported_users = []</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="15">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @logger = logger</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="16">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @csv = rows</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="17">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @import_job = import_job</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def import_rows</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="21">
+          <span class="hits">5</span>
+          
+          <code class="ruby">    errors &lt;&lt; { type: &quot;Missing User emails&quot;, rows: rows_missing_user_email } if rows_missing_user_email.size &gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="22">
+          <span class="hits">5</span>
+          
+          <code class="ruby">    return false if errors.size &gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="23">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    add_level csv</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="24">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    return false if errors.size &gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="25">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    save_tree</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="26">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="29">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  private</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def existing_email_pairs</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="32">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    User.joins(&quot;LEFT OUTER JOIN users as managers on users.parent_id = managers.id&quot;).pluck(&quot;managers.email_address manager_email, users.email_address user_email&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def save_tree</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="36">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    @builder.walk do |node|</code>
+        </li>
+      
+        <li class="covered" data-hits="87" data-linenumber="37">
+          <span class="hits">87</span>
+          
+          <code class="ruby">      if node.row</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="38">
+          <span class="hits">33</span>
+          
+          <code class="ruby">        imported_users &lt;&lt; create_or_update_user(UserImport::User.new node.row)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="43">
+          
+          
+          <code class="ruby">  # this creates or updates user with given params.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="44">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def create_or_update_user(user)</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="45">
+          <span class="hits">33</span>
+          
+          <code class="ruby">    if user.exists?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="46">
+          
+          
+          <code class="ruby">      update_user(user.existing_user, user.as_params)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="covered" data-hits="33" data-linenumber="48">
+          <span class="hits">33</span>
+          
+          <code class="ruby">      User.new(user.as_params)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby">  rescue ActiveRecord::RecordInvalid =&gt; invalid</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="51">
+          
+          
+          <code class="ruby">    errors &lt;&lt; { type: &quot;User unable to be saved #{ invalid }&quot;, rows: node.row }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="53">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="54">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def update_user(existing_user, user_params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="55">
+          
+          
+          <code class="ruby">    existing_user.update(user_params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="56">
+          
+          
+          <code class="ruby">    existing_user.reload</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="57">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="58">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="59">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby">  # this method attempts to add row to user hierarchy builder (and returns nothing if all added)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby">  # and recursively calls itself until either all imported or nothing more can be imported</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="62">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def add_level(import_rows)</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="63">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    not_imported_rows = import_rows.reject do |r|</code>
+        </li>
+      
+        <li class="covered" data-hits="36" data-linenumber="64">
+          <span class="hits">36</span>
+          
+          <code class="ruby">      mgr_email = r[MANAGER_EMAIL_INDEX]</code>
+        </li>
+      
+        <li class="covered" data-hits="36" data-linenumber="65">
+          <span class="hits">36</span>
+          
+          <code class="ruby">      usr_email = r[USER_EMAIL_INDEX]</code>
+        </li>
+      
+        <li class="covered" data-hits="36" data-linenumber="66">
+          <span class="hits">36</span>
+          
+          <code class="ruby">      @builder.import(mgr_email.nil? ? &quot;&quot; : mgr_email.strip, usr_email.nil? ? &quot;&quot; : usr_email.strip,  r)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="68">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="69">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    return if not_imported_rows.empty?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="70">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="71">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    if not_imported_rows == import_rows</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="72">
+          
+          
+          <code class="ruby">      errors &lt;&lt; { type: &quot;Unable to add the following rows&quot;, rows:  not_imported_rows }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="73">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="74">
+          <span class="hits">3</span>
+          
+          <code class="ruby">      add_level(not_imported_rows)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="75">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="76">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="77">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="78">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def rows_missing_user_email</code>
+        </li>
+      
+        <li class="covered" data-hits="62" data-linenumber="79">
+          <span class="hits">62</span>
+          
+          <code class="ruby">    @rows_missing_user_email ||= csv.reject { |r| r[2].presence }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="80">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="81">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+      </div>
+    </div>
+  </body>
+</html>
